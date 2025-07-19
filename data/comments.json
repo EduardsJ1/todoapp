@@ -1,0 +1,72 @@
+[
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "Great post!",
+        "email": "alice@example.com",
+        "body": "I really enjoyed reading this. Thanks for sharing!"
+    },
+    {
+        "postId": 1,
+        "id": 2,
+        "name": "Helpful tips",
+        "email": "bob@example.com",
+        "body": "These tips were very helpful for me. Appreciate it!"
+    },
+    {
+        "postId": 1,
+        "id": 3,
+        "name": "Question about the topic",
+        "email": "carol@example.com",
+        "body": "Could you explain more about the second point?"
+    },
+    {
+        "postId": 2,
+        "id": 4,
+        "name": "Interesting perspective",
+        "email": "dave@example.com",
+        "body": "I hadn't thought about it that way before. Thanks!"
+    },
+    {
+        "postId": 2,
+        "id": 5,
+        "name": "Thanks for sharing",
+        "email": "eve@example.com",
+        "body": "This was exactly what I was looking for."
+    },
+    {
+        "postId": 2,
+        "id": 6,
+        "name": "Nice explanation",
+        "email": "frank@example.com",
+        "body": "Your explanation made it easy to understand."
+    },
+    {
+        "postId": 3,
+        "id": 7,
+        "name": "Well written",
+        "email": "grace@example.com",
+        "body": "The article was well written and informative."
+    },
+    {
+        "postId": 3,
+        "id": 8,
+        "name": "I disagree",
+        "email": "henry@example.com",
+        "body": "I have a different opinion, but I respect your view."
+    },
+    {
+        "postId": 3,
+        "id": 9,
+        "name": "Can you provide sources?",
+        "email": "irene@example.com",
+        "body": "Could you share some sources for your claims?"
+    },
+    {
+        "postId": 1,
+        "id": 10,
+        "name": "Looking forward to more",
+        "email": "jack@example.com",
+        "body": "Great job! Looking forward to your next post."
+    }
+]

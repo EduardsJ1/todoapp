@@ -1,0 +1,74 @@
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "Finish the project documentation",
+        "body": "Complete the documentation for the new project by the end of the week."
+    },
+    {
+        "userId": 2,
+        "id": 2,
+        "title": "Buy groceries",
+        "body": "Milk, eggs, bread, and fruits need to be bought from the store."
+    },
+    {
+        "userId": 3,
+        "id": 3,
+        "title": "Schedule team meeting",
+        "body": "Organize a meeting with the team to discuss the next sprint tasks."
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "Read new book",
+        "body": "Start reading the new novel received last week."
+    },
+    {
+        "userId": 2,
+        "id": 5,
+        "title": "Update website",
+        "body": "Add the latest blog post and update the contact information on the website."
+    },
+    {
+        "userId": 3,
+        "id": 6,
+        "title": "Workout session",
+        "body": "Attend the gym session scheduled for tomorrow morning."
+    },
+    {
+        "userId": 1,
+        "id": 7,
+        "title": "Plan weekend trip",
+        "body": "Research destinations and book accommodation for the weekend getaway."
+    },
+    {
+        "userId": 2,
+        "id": 8,
+        "title": "Call plumber",
+        "body": "Schedule a visit to fix the leaking kitchen faucet."
+    },
+    {
+        "userId": 3,
+        "id": 9,
+        "title": "Prepare presentation",
+        "body": "Create slides for the upcoming client meeting."
+    },
+    {
+        "userId": 1,
+        "id": 10,
+        "title": "Organize workspace",
+        "body": "Clean and arrange the desk and shelves in the home office."
+    },
+    {
+        "userId": 2,
+        "id": 11,
+        "title": "Renew car insurance",
+        "body": "Check quotes and renew the car insurance before expiration."
+    },
+    {
+        "userId": 3,
+        "id": 12,
+        "title": "Bake a cake",
+        "body": "Try a new recipe for chocolate cake this weekend."
+    }
+]

@@ -1,30 +1,31 @@
 "use client"
 
-import {NavigationMenu,NavigationMenuItem, NavigationMenuLink} from "@/components/ui/navigation-menu";
-import { Button } from "./ui/button";
+import {NavigationMenu,NavigationMenuItem, NavigationMenuLink,NavigationMenuList} from "./ui/navigation-menu";
 import Link from "next/link";
+import ApiComponent from "./ApiMode";
 
 export default function Navbar(){
+    const testMode= process.env.NEXT_PUBLIC_TEST_DATA==="true"?true:false;
     return(
-        <NavigationMenu>
-            <NavigationMenuItem>
-                <NavigationMenuLink asChild>
-                    <Link href={"/"}>Home</Link>
-                </NavigationMenuLink>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-                <NavigationMenuLink asChild>
-                    <Link href={"/users"}>Users</Link>
-                </NavigationMenuLink>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-                <NavigationMenuLink asChild>
-                    <Link href={"/posts"}>Posts</Link>
-                </NavigationMenuLink>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-                <Button onClick={()=>console.log("pressed")}>Press me</Button>
-            </NavigationMenuItem>
+        <NavigationMenu className="border-b-1 border-neutral-100">
+            <div className="flex flex-1 justify-between px-5 py-3 max-w-[1200px]">
+                <div className="flex">
+                    <NavigationMenuLink asChild>
+                        <Link href={"/"}>Posts</Link>
+                    </NavigationMenuLink>
+
+                    <NavigationMenuLink asChild>
+                        <Link href={"/users"}>Users</Link>
+                    </NavigationMenuLink>
+
+                    <NavigationMenuLink asChild>
+                        <Link href={"/albums"}>Albums</Link>
+                    </NavigationMenuLink>
+                </div>
+                <div className="flex items-center"> 
+                    <ApiComponent TestMode={testMode}/>
+                </div> 
+            </div> 
         </NavigationMenu>
     )
 }
