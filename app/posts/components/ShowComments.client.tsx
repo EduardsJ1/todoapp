@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import { Skeleton } from '@/components/ui/skeleton'
-import { getComments } from '@/api/comments'
+import { getComments } from '@/app/api/comments'
 import type { Comment } from '@/types/comments'
 import { Button } from '@/components/ui/button'
 import { Card,CardHeader,CardTitle,CardDescription,CardContent } from '@/components/ui/card'

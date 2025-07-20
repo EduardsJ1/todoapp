@@ -2,7 +2,7 @@ import React, { use } from 'react'
 import type { User } from '@/types/users'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card'
 import { Label } from '@/components/ui/label'
-const UserCard = ({user}:{user:User}) => {
+const UserCard = ({user,children}:{user:User,children?:React.ReactNode}) => {
   return (
     <Card className='flex-1/5 sm:min-w-[320px]'>
         <CardHeader>
@@ -26,7 +26,7 @@ const UserCard = ({user}:{user:User}) => {
         </CardContent>
 
         <CardFooter>
-            <div>Footer</div>
+            {children}
         </CardFooter>
     </Card>
   )

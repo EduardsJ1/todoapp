@@ -1,4 +1,4 @@
-import type {Post} from "../types/posts"
+import type {Post} from "../../types/posts"
 import postsTestData from "@/data/posts.json"
 
 

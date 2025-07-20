@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react'
-import { getComments } from '@/api/comments';
+import { getComments } from '@/app/api/comments';
 import { CommentParams } from '@/types/comments';
 import type { Comment } from '@/types/comments';
 const useComments = (params?:CommentParams) => {
