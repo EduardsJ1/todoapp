@@ -3,7 +3,6 @@ import React from 'react'
 import type { AlbumWithPhotos } from '@/types/albums';
 import { Card,CardContent,CardHeader,CardTitle } from '@/components/ui/card';
 import { Carousel,CarouselContent,CarouselItem,CarouselNext,CarouselPrevious } from '@/components/ui/carousel';
-import { Skeleton } from '@/components/ui/skeleton';
 import PhotoCard from './PhotoCard.client';
 const AlbumCarosel = ({AlbumWithPhotos}:{AlbumWithPhotos:AlbumWithPhotos}) => {
     const album=AlbumWithPhotos;

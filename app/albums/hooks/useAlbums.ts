@@ -35,7 +35,7 @@ const useAlbums = ({userId}:{userId?:number}) => {
         }
        
         fetchAlbums();
-    },[])
+    },[userId])
 
     return {AlbumWithPhotos,loading,error}
 }

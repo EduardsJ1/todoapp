@@ -6,8 +6,7 @@ import { Card,CardHeader,CardContent,CardTitle } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 const UserAlbums = ({userId}:{userId:number}) => {
   const {AlbumWithPhotos,loading,error} =  useAlbums({userId:userId});
-  console.log("user albums is loading:"+loading);
-  console.log(AlbumWithPhotos);
+  console.log(error);
   if(loading){
     return(
       <Card className='mt-10 bg-neutral-50'>
