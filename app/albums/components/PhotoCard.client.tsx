@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
-
-const PhotoCard = ({ className, ...imgProps }: React.ImgHTMLAttributes<HTMLImageElement>) => {
+import Image,{type ImageProps} from 'next/image';
+const PhotoCard = ({ className, ...imgProps }: ImageProps) => {
     const [imageError,setImageErorr]=useState(false);
 
   return (
@@ -14,9 +14,9 @@ const PhotoCard = ({ className, ...imgProps }: React.ImgHTMLAttributes<HTMLImage
             </div>
             ):(
             
-            <img 
+            <Image 
             {...imgProps}
-
+            alt={imgProps.alt||""}
             className={`w-full h-full object-cover rounded ${className||''}`}
             onError={()=>setImageErorr(true)}
             />
