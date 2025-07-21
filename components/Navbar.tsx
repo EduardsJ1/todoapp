@@ -1,6 +1,6 @@
 "use client"
 
-import {NavigationMenu,NavigationMenuItem, NavigationMenuLink,NavigationMenuList} from "./ui/navigation-menu";
+import {NavigationMenu, NavigationMenuLink} from "./ui/navigation-menu";
 import Link from "next/link";
 import ApiComponent from "./ApiMode";
 
@@ -16,10 +16,6 @@ export default function Navbar(){
 
                     <NavigationMenuLink asChild>
                         <Link href={"/users"}>Users</Link>
-                    </NavigationMenuLink>
-
-                    <NavigationMenuLink asChild>
-                        <Link href={"/albums"}>Albums</Link>
                     </NavigationMenuLink>
                 </div>
                 <div className="flex items-center"> 

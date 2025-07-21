@@ -1,7 +1,6 @@
-import React, { use } from 'react'
+import React from 'react'
 import type { User } from '@/types/users'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card'
-import { Label } from '@/components/ui/label'
 const UserCard = ({user,children}:{user:User,children?:React.ReactNode}) => {
   return (
     <Card className='flex-1/5 sm:min-w-[320px]'>

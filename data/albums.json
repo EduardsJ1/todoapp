@@ -1,0 +1,52 @@
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "memories of summer days"
+    },
+    {
+        "userId": 2,
+        "id": 2,
+        "title": "adventures in the city"
+    },
+    {
+        "userId": 3,
+        "id": 3,
+        "title": "moments with friends"
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "family gatherings"
+    },
+    {
+        "userId": 2,
+        "id": 5,
+        "title": "travel diaries"
+    },
+    {
+        "userId": 3,
+        "id": 6,
+        "title": "nature escapes"
+    },
+    {
+        "userId": 1,
+        "id": 7,
+        "title": "birthday celebrations"
+    },
+    {
+        "userId": 2,
+        "id": 8,
+        "title": "winter holidays"
+    },
+    {
+        "userId": 3,
+        "id": 9,
+        "title": "music festival memories"
+    },
+    {
+        "userId": 1,
+        "id": 10,
+        "title": "weekend road trips"
+    }
+]
