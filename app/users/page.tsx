@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import React from 'react'
 import { getUsers } from '../api/users';
 import type { User } from '@/types/users';

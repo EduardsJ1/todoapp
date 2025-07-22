@@ -1,3 +1,6 @@
+export const dynamic = 'force-dynamic';
+
+
 import type { Post } from "@/types/posts";
 import type { User } from "@/types/users";
 

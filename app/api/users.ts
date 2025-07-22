@@ -23,7 +23,7 @@ export const getUsers=async (params?:UserParams):Promise<User[]>=>{
     const query = params?"?"+new URLSearchParams(params as Record<string,string>).toString():"";
 
     try {
-        const res = await fetch(`https://jsonplaceholder.typicode.com/users${query}`,{cache:"no-cache", next:{revalidate:0}});
+        const res = await fetch(`https://jsonplaceholder.typicode.com/users${query}`,{cache:"no-cache"});
         if (!res.ok) {
             throw new Error(`HTTP error! status: ${res.status}`);
         }

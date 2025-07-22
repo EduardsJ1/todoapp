@@ -13,13 +13,15 @@ const ShowComments = ({postId}:{postId:number}) => {
     const handleClick=async()=>{
         const newOpen=!open;
         setOpen(newOpen);
-        if(newOpen){//fetch only when opening'
-            console.log("fetching")
+        if(newOpen){//fetch only when opening
             try{
-                setLoading(true);
-                const commentData= await getComments({postId:postId});
-                setComments(commentData);
-                console.log(commentData);
+                if(comments.length===0){
+                    setLoading(true);
+                    console.log("fetching")
+                    const commentData= await getComments({postId:postId});
+                    setComments(commentData);
+                    console.log(commentData);
+                }
             }catch(error){
                 console.log(error);
             }finally{

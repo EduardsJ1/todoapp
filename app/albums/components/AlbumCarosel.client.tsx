@@ -18,7 +18,7 @@ const AlbumCarosel = ({AlbumWithPhotos}:{AlbumWithPhotos:AlbumWithPhotos}) => {
                 <CarouselContent>
                     {
                         album.photos.map((photo) => (
-                            <CarouselItem key={photo.id} className='basis-1/2 md:basis-1/3'>
+                            <CarouselItem key={photo.id} className='sm:basis-1/2 md:basis-1/3'>
                                 <PhotoCard src={photo.url} alt={photo.title} width={500} height={500}/>
                             </CarouselItem>
                         ))
